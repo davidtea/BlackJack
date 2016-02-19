@@ -1,0 +1,260 @@
+Project Report
+a) I made a BlackJack project, it allows the player to set their starting cash, input their bet amount
+and then play the game. It has some simple ascii art for the cards. Player can hit, stay, or fold. 
+When player stays, dealer hits until it has at least a sum of 17 or until it beats or matches the 
+player. When it matches the player, it pushes and the bet is returned. Game can be played as long
+as you want. When you run out of cash, you can start a new game or quit.
+b) This project turned out to be a lot more difficult than I expected. It was very difficult trying
+to get my Struct for the cards working properly and keeping track of all the cards. 
+c) Around 40 hours in total. Most of it spent debugging and learning.
+
+
+
+OUtPut:
+
+
+
+
+
+
+
+
+
+
+                    Welcome to a game of BlackJack!
+                    How much money would you like to start with?
+                    5000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Remaining Cash: +5000
+                    How much would you like to bet? 500
+                    Press any key to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+Dealer's Hand:
+.--------..--------.
+|        || A .    |
+|        ||  / \   |
+|        || (_,_)  |
+|        ||   I   A|
+`--------'`--------'
+
+
+
+                    Bet: 500
+                    0 - Stay, 1 - Hit, 2 - Fold
+
+
+
+
+
+
+Player's Hand: 14
+.--------..--------.
+| 4 _    || J _    |
+|  ( )   ||  ( )   |
+| (_X_)  || (_X_)  |
+|   Y   4||   Y   J|
+`--------'`--------'
+
+
+
+
+Dealer's Hand: 18
+.--------..--------.
+| 7 /\   || A .    |
+|  /  \  ||  / \   |
+|  \  /  || (_,_)  |
+|   \/  7||   I   A|
+`--------'`--------'
+
+
+
+                    Push! Bet is returned.
+                    Press any key to continue...
+
+
+
+
+
+
+Player's Hand: 18
+.--------..--------..--------..--------.
+| 4 _    || J _    || A_  _  || 3_  _  |
+|  ( )   ||  ( )   || ( \/ ) || ( \/ ) |
+| (_X_)  || (_X_)  ||  \  /  ||  \  /  |
+|   Y   4||   Y   J||   \/  A||   \/  3|
+`--------'`--------'`--------'`--------'
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Remaining Cash: +5000
+                    How much would you like to bet? 500
+                    Press any key to continue...
+
+
+
+Dealer's Hand:
+.--------..--------.
+|        || 4_  _  |
+|        || ( \/ ) |
+|        ||  \  /  |
+|        ||   \/  4|
+`--------'`--------'
+
+
+
+                    Dealer will now try to push.
+                    Press any key to continue...
+
+
+
+
+
+
+Player's Hand: 21
+.--------..--------..--------.
+| A_  _  || 3 /\   || 7 _    |
+| ( \/ ) ||  /  \  ||  ( )   |
+|  \  /  ||  \  /  || (_X_)  |
+|   \/  A||   \/  3||   Y   7|
+`--------'`--------'`--------'
+
+
+
+
+Dealer's Hand: 21
+.--------..--------..--------.
+| Q /\   || 4_  _  || 7 /\   |
+|  /  \  || ( \/ ) ||  /  \  |
+|  \  /  ||  \  /  ||  \  /  |
+|   \/  Q||   \/  4||   \/  7|
+`--------'`--------'`--------'
+
+
+
+                    Push! Bet is returned.
+                    Press any key to continue...
+
+
+
+
+
+
+Player's Hand: 21
+.--------..--------..--------.
+| A_  _  || 3 /\   || 7 _    |
+| ( \/ ) ||  /  \  ||  ( )   |
+|  \  /  ||  \  /  || (_X_)  |
+|   \/  A||   \/  3||   Y   7|
+`--------'`--------'`--------'
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Remaining Cash: +5000
+                    How much would you like to bet? 500
+                    Press any key to continue...
+
+
+
+
+
+
+Dealer's Hand: 26
+.--------..--------..--------..--------.
+| 7 _    || 6 /\   || 3_  _  || Q /\   |
+|  ( )   ||  /  \  || ( \/ ) ||  /  \  |
+| (_X_)  ||  \  /  ||  \  /  ||  \  /  |
+|   Y   7||   \/  6||   \/  3||   \/  Q|
+`--------'`--------'`--------'`--------'
+
+
+
+                    Player Wins!
+                    Press any key to continue...
+
+
+
+
+
+
+Player's Hand: 19
+.--------..--------.
+|10 _    || 9 .    |
+|  ( )   ||  / \   |
+| (_X_)  || (_,_)  |
+|   Y  10||   I   9|
+`--------'`--------'
+
+
+
+
+Dealer's Hand:
+.--------..--------.
+|        || 2_  _  |
+|        || ( \/ ) |
+|        ||  \  /  |
+|        ||   \/  2|
+`--------'`--------'
+
+
+
+                    BUST! Dealer Wins!
+                    Press any key to continue...
+
+
+
+
+
+
+Player's Hand: 24
+.--------..--------..--------..--------..--------.
+| A /\   || 7 _    || 5 .    || 3 .    || 8 /\   |
+|  /  \  ||  ( )   ||  / \   ||  / \   ||  /  \  |
+|  \  /  || (_X_)  || (_,_)  || (_,_)  ||  \  /  |
+|   \/  A||   Y   7||   I   5||   I   3||   \/  8|
+`--------'`--------'`--------'`--------'`--------'
